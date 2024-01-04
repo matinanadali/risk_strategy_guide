@@ -11,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color:#c2c7d6;
   text-align: center;
-  
+  height: 100vh;
 }
 
 h1 {
