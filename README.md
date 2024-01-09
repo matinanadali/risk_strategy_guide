@@ -1,70 +1,13 @@
-# Getting Started with Create React App
+# <a href = "https://voluble-blini-e8e590.netlify.app/">Risk strategy guide</a>
+#### A web app that calculates the probability of grabbing a territory with a certain number of armies and helps players adjust their strategy and improve their chances of winning in this all-time-classic strategic board game.
+### Objective of the game and general rules
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  - **Objective:** The main goal of the game is to achieve world domination by eliminating opponents and conquering territories.
+- **Setup:** Players receive a certain number of armies based on the number of territories they control. Players take turns placing their armies on the map.
+- **The game:** One their turn,  players can attack enemy territories by rolling dice to determine the outcome of battles. The more armies they have in the territory they are attacking from, the more dice they roll (with a maximum of three dice). Same holds for the defender with a maximum of two dice. More specifically, to determine the outcome of a battle, we compare the highest die each of the players (attacker and defender) rolled. If the attacker's is higher, the defender loses an army from the territory under attack. Else the attacker loses an army from the territory he attacked from. If each of the players has more than one army in their territory, they roll more than one dice, so the process is repeated for the pair of dices with the second greatest values.
+- **Winning:** The game continues until a player conquers all territories, eliminating opponents along the way.<br><br>
+  You can find out more about the official rules of the game<a href="https://www.officialgamerules.org/risk#google_vignette"> here</a><br>
+### 
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
